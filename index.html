@@ -1,1 +1,369 @@
-Strona Anty-Plagiat.pl jest w budowie ...
+<html lang="pl">
+<head>
+<title>Anty-Plagiat.pl - Oprogramowanie antyplagiatowe wykrywające plagiat w pracach dyplomowych 2018</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Wyeliminuj plagiat ze swojej pracy dyplomowej ! Oprogramowanie Antyplagiat wykrywa możliwość popełnienia plagiatu z najwyższą skutecznością spośród dostępnych na rynku rozwiązań.">
+<meta name="keywords" content="plagiat,antyplagiat,anty-plagiat,program antyplagiatowy,sprawdź plagiat,wykryj plagiat,praca dyplomowa,zweryfikuj pracę,program do sprawdzania prac dyplomowych">
+<link rel="icon" href="images/favicon.ico">
+
+<style>
+    
+#site {
+    width: 1150px;
+}
+
+#site_gradient {
+    min-width: 1240px;
+    background: rgba(65,177,225,1);
+    background: -moz-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(65,177,225,1)), color-stop(49%, rgba(65,177,225,1)), color-stop(51%, rgba(65,177,225,1)), color-stop(100%, rgba(65,222,225,1)));
+    background: -webkit-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+}
+
+#logo {
+    height: 250px;
+    background-image:url(images/logo.png);
+    position: relative;
+    z-index: 2;
+}
+
+#info {
+    float: left;
+    width: 23%;
+}
+
+#opis {
+    float: left;
+    margin: 10px 0px 0px 10px;
+    width: 72%;
+    min-height: 600px;
+    padding: 10px;
+    border-radius: 12px;
+    background: white; 
+    position: relative;
+}
+
+#stopka{
+    clear: both;
+    position: relative;
+    width: 80%;
+    min-height: 45px;
+    color: white;
+    font-size: 12px;
+    background-image:-moz-linear-gradient(180deg,#102134,#172c44,#102134);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    line-height: 45px;
+}
+
+#clearer{
+    clear: both;
+    min-height: 5px;
+    width: 90%;
+    position:relative;
+}
+
+
+.linia {
+    border-bottom:dashed; 
+    border-bottom-width: 1px;
+    color: #626265;
+    margin: -11px 0px 0px 0px;
+}
+
+.komorka {
+    width: 90%;
+    min-height: 100px;
+    display: block;
+    font-size: 12px; 
+    color: black;
+    border-radius: 12px;
+    background-image:-moz-linear-gradient(180deg,#102134,#172c44,#102134);
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+
+.button {
+    float: left;
+    display: block;
+    width: 24.8%;
+    height: 60px;
+    color: white;
+    background-color: #102134;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact;
+    font-size: 17px;
+    font-weight: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #41b1e1;
+}
+
+.button_start{
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.button_end{
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.button:hover{
+   background-color: #63b11d;
+   font-size: 20px;
+}
+
+.text_green_large {
+	color: #63b11d;
+	font-size:27px;
+}
+
+.text_green_medium {
+	color: #63b11d;
+	font-size:20px;
+	font-weight:bold;>
+}
+
+.feature_container{
+	margin-bottom: 25px;
+}
+
+.feature_img{
+	width: 80px;
+	float:left;
+	margin-left:10px;
+}
+
+.feature_title{
+	text-align: left;
+	margin-left:110px; 
+	margin-bottom:0px;
+}
+
+.feature_description{
+	text-align: left;
+	margin-left:110px;
+	margin-top:3px;
+	font-size:18px
+}
+
+.button_small {
+    width: 33%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    border-color: #ffffff;
+}
+
+.buy_now_button {
+    width:40%; 
+    margin-left: 30%; 
+    margin-right: 30%; 
+    background-color: green; 
+    height: 45px; 
+    line-height: 45px;
+}
+
+</style>
+
+<div align="center" id="site_gradient">
+<div id="site">
+<div id="logo"></div>
+
+<div align="center" style="width: 100%">
+<a href="buy_now.html" class="button button_start">KUP TERAZ</a>
+<a href="mailto:biuro.antyplagiat@gmail.com" class="button">NAPISZ DO NAS</a>
+<a href="downloads/Antyplagiat_Demo.msi" class="button">POBIERZ DEMO</a>
+<a href="http://allegro.pl/show_user.php?uid=48472148" class="button button_end">KOMENTARZE</a>
+</div>
+
+
+<div id="info">
+
+<div class="komorka">
+<p style="color: #63b11d; text-align: left; font-family: Impact; font-size: 18px; text-weight: bold; margin-left: 20px;"><span style="color: white; font-size:22px;">K</span>ONTAKT</p>
+<p class="linia"></p>
+
+<div>
+<img style="float: left; margin-left: 10px; margin-top: -5px; width: 32px; height: 27px;" src="images\telefon.png"></img>
+<h3 style="text-align: center; color:white;">+48 534-194-480</h3>
+ </div>
+ <div>
+<img style="float: left; margin-left: 10px; margin-top: -5px; width: 32px; height: 27px;" src="images\telefon.png"></img>
+<h3 style="text-align: center; color:white;">+48 501-340-973</h3>
+ </div>
+<div>
+<img style="float: left; margin-left: 13px; width: 30px; height: 20px;" src="images/mail.png"></img>
+<h3 align="center" style="color: white;">biuro.antyplagiat@gmail.com</h3>
+</div>
+<div>
+ <img src="http://status.gadu-gadu.pl/users/status.asp?id=5737182&amp;styl=1" style="float: left; margin-left: 20px; width: 18px; height: 18px;" alt="Gadu-Gadu" />
+ <a href="gg:5737182" style="color: white; "><h3>GG: 5737182</h3></a>   </div>
+</div>
+
+<div class="komorka">
+<p style="color: #63b11d; text-align: left; font-family: Impact; font-size: 18px; text-weight: bold; margin-left: 20px;"><span style="color: white; font-size:22px;">P</span>ŁATNOŚCI</p>
+<p class="linia"></p>
+<br>
+<img style="height: 60px;" src="images\pkobp.png"></img>
+<h3 style="text-align: center; color: yellow;">PKO Bank Polski</h3>
+<h3 style = "text-align: center; color: white; margin: -10px 0px 0px 5px">20 1020 1462 0000 7002 0149 3014</h3>
+<br>
+<p class="linia"></p>
+<br>
+<img style="width: 40%; height: 40px;" src="images\payu.png"></img>
+<h3 style="text-align: center; color: yellow;">Obsługujemy PayU</h3>
+<p style="text-align: left; color: white; font-size:15px; margin: -10px 0px 0px 5px;">Przedpłata za pomocą Płacę z Allegro. Bezpieczna, szybka i zautomatyzowana forma płatności. Polecamy!</p>
+<br>
+<p class="linia"></p>
+<br>
+<img style="width: 40%; height: 40px;" src="images\logo_paypal.png"></img>
+<h3 style="text-align: center; color: yellow;">Obsługujemy PayPal</h3>
+<p style="text-align: left; color: white; font-size:15px; margin: -10px 0px 0px 5px;">Istnieje mozliwosc przedpłaty za pomocą PayPal. Szybka, bezpieczna metoda płatności online.</p>
+<br>
+</div>
+
+<div class="komorka">
+<p style="color: #63b11d; text-align: left; font-family: Impact; font-size: 18px; text-weight: bold; margin-left: 20px;"><span style="color: white; font-size:22px;">R</span>EALIZACJA</p>
+<p class="linia"></p>
+<br>
+<img style="width: 85%;" src="images\delivery.png"></img>
+<br><br>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">1. Zamawiasz dowolną ilość licencji na jednej aukcji.</p>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">2. Dokonujesz płatności</p>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">3. W ciągu kilku minut otrzymujesz maila z linkiem do pobrania aplikacji oraz kluczem licencyjnym.</p>
+<br>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">Wystarczy, że pobierzesz aplikację, wprowadzisz klucz licencyjny i już możesz sprawdzać swoje prace.</p>
+<br>
+<p style="text-align: left; color: yellow; font-weight: bold; margin: 0px 0px 0px 5px;">UWAGA: Przy wpłacie przez Przelew24 automatycznie otrzymasz maila z dalszymi instrukcjami. Płacąc standardowym przelewem czas oczekiwania wynosi od kilku minut do paru godzin.</p>
+<br>
+</div>
+
+</div>
+
+<div id="opis">
+	<h2 style="text-align: center;">Sprawdź czy Twoja praca nie jest <span style="color: red; font-size:27px;">plagiatem</span> !</h2>
+	<h3 style="text-align: left;">Oprogramowanie <span style="color: #63b11d; font-size:23px;">Antyplagiat</span> wykrywa możliwość popełnienia plagiatu z najwyższą skutecznością spośród dostępnych na rynku rozwiązań.</h3>
+	<img src="images\plagiat.png"></img>
+	<p style="text-align: left; font-size: 18px;">Chcesz uniknąć przykrego rozczarowania kiedy Twoja praca zostanie poddana próbie i okaże się, że część tekstu została splagiatowana ? Nie popełniaj tego błędu, <span style="color: #63b11d; font-size:20px; font-weight:bold;">zwerfyfikuj</span> swoją pracę i śpij spokojnie, mając pewność, że tekst jest w <span style="color: #63b11d; font-size:20px; font-weight:bold;">100%</span> oryginalny.</p>
+	<h2 style="text-align: center;">Jak to działa ?</h2>
+	
+	
+	<style>
+    #tabelka10338373 .footborder{opacity: 0.5;}#tabelka10338373 .footborder img{float:right;margin: 5px;}#tabelka10338373 .footborder:hover{opacity:1;}#tabelka10338373 .allborder{position: relative;margin:auto;padding: 9px 0px 0px 0px;font-size: 14px;text-align: center;width:100%;max-width:700px;} #tabelka10338373 a.widthshadow:hover span.sitemiddle img {opacity:1;}#tabelka10338373 span.sitemiddle img {margin: 0px;border: 0px;width: 92%;max-width: 800px;} #tabelka10338373 .insideborder{padding: 10px 0px;} #tabelka10338373 .insideborder img{border: 2px solid #FFFFFF;padding:0px;margin:9px;} #tabelka10338373 img.noborder{border:none;} #tabelka10338373 td{padding: 0;border:0;border-spacing:0;vertical-align:middle;} #tabelka10338373 a{text-decoration: none;} #tabelka10338373 div#linkfoto a {color: #000000;}#tabelka10338373 img.ppanel:hover {margin: 9px; text-decoration: none; border: 2px solid #000000; padding:0px;}#tabelka10338373 #linkfoto{padding: 2px 8px 2px 8px;text-align: center; font-weight: bold;} #tabelka10338373 #linkfoto {font-size: 18px;margin:0;border:0;font-family: Arial;text-decoration: none;}#tabelka10338373 #linkfoto a:hover{margin:0;border:0;text-decoration: none; } #tabelka10338373 .elementitem{float: left;} #tabelka10338373 .ppreview{margin-bottom: 20px;width:100%; } #tabelka10338373 .ppreview img {max-width: 800px; width:92%;} #tabelka10338373 .sitemiddle {opacity:0;filter: alpha(opacity = 0);position:absolute;display:block;top:30px;left: 0px;width: 100%;text-align:center;transition: all 0.5s ease-out;-webkit-transition: all 0.5s ease-out;-moz-transition: all 0.5s ease-out;-o-transition: all 0.5s ease-out;} #tabelka10338373 a:hover span.sitemiddle {opacity:1;filter: alpha(opacity = 100);transition: all 0.5s ease-out;-webkit-transition: all 0.5s ease-out;-moz-transition: all 0.5s ease-out;-o-transition: all 0.5s ease-out;}#tabelka10338373 a:hover span.sitemiddle {visibility: visible;opacity:1;z-index:2;-webkit-transition-delay: 0.2s; transition-delay: 0.2s;}#tabelka10338373 span.sitemiddle:target {visibility: visible;opacity: 1;}#tabelka10338373 a.widthshadow img.ppanel, #tabelka10338373 div.ppreview img {-moz-box-shadow: 2px 2px 10px rgba(0,0,0,0.2); -webkit-box-shadow: 2px 2px 10px rgba(0,0,0,0.2); box-shadow: 2px 2px 10px rgba(0,0,0,0.2);} #tabelka10338373 a.widthshadow:hover img.ppanel {background-position: 0 -256px; -moz-box-shadow: 2px 2px 10px rgba(0,0,0,0.4); -webkit-box-shadow: 2px 2px 10px rgba(0,0,0,0.4); box-shadow: 2px 2px 10px rgba(0,0,0,0.4);}#tabelka10338373 a.widthshadowmiddle img.ppanel {-moz-box-shadow: 2px 2px 10px rgba(0,0,0,0.2); -webkit-box-shadow: 2px 2px 10px rgba(0,0,0,0.2); box-shadow: 2px 2px 10px rgba(0,0,0,0.2);} #tabelka10338373 a.widthshadowmiddle:hover img {background-position: 0 -256px}#tabelka10338373 a.widthshadow:hover img { background-position: 0 -256px;} #tabelka10338373 .insideborder img, .insideborder {-moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px}
+</style>
+<div id='tabelka10338373' style="margin-top:-20px;">
+    <div class="allborder">
+        <div class="insideborder" style="">
+            <div class="ppreview"><a href=images/gallery/screenshot1.png target='_blank' class="widthshadowmiddle"><img src=images/gallery/screenshot1_800x600.png style="margin-bottom:10px;" /></a></div><a href=images/gallery/screenshot1.png
+                target='_blank' class="widthshadow"><img class="ppanel" src=images/gallery/small1.png /><span class="imgbig103383731 sitemiddle" id='imgbig1'><img src=images/gallery/screenshot1_800x600.png /></span></a>
+            <a
+                href=images/gallery/screenshot2.png target='_blank' class="widthshadow"><img class="ppanel" src=images/gallery/small2.png /><span class="imgbig103383732 sitemiddle" id='imgbig2'><img src=images/gallery/screenshot2.png /></span></a>
+                <a
+                    href=images/gallery/screenshot3.png target='_blank' class="widthshadow"><img class="ppanel" src=images/gallery/small3.png /><span class="imgbig103383733 sitemiddle" id='imgbig3'><img src=images/gallery/screenshot3.png /></span></a>
+                    <div
+                        style="clear:both"></div>
+    </div>
+</div>
+</div>
+	
+	
+	<br>
+	<p style="text-align: left; font-size: 18px;">Profesjonalny system <span style="color: #63b11d; font-size:20px; font-weight:bold;">analizuje</span> tekst pod kątem wystąpienia plagiatu. Wyrafinowany algorytm <span style="color: #63b11d; font-size:20px; font-weight:bold;">automatycznie</span> porównuje fragmenty pracy z wynikami wyszukiwarki Google. Po zakończeniu procesu analizy, program <span style="color: #63b11d; font-size:20px; font-weight:bold;">wskazuje</span> miejsca w tekście, które mogą być potraktowane jako plagiat utworu. Każdy taki fragment tekstu jest <span style="color: #63b11d; font-size:20px; font-weight:bold;">podkreślony</span> kolorem czerwonym a użytkownik ma możliwość <span style="color: #63b11d; font-size:20px; font-weight:bold;">wyświetlenia stron internetowych</span> na których <span style="color: #63b11d; font-size:20px; font-weight:bold;">opublikowano</span> analizowany fragment.</p>
+	<h2 style="text-align: center;">Dlaczego nasz program jest <span class="text_green_large">najlepszy</span> ?</h2>
+	
+	<div class="feature_container">
+	<img class="feature_img" src="images\key.png"></img>
+	<h3 class="feature_title">Legalna licencja</h3>
+	<p class="feature_description">Otrzymujesz dożywotnią licencję bez żadnych limitów ! Program uruchomisz na każdym komputerze z systemem Windows. Realizacja w 5 minut - od razu po zakupie otrzymasz link do pobrania aplikacji oraz klucz licencyjny.</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\clock-1.png"></img>
+	<h3 class="feature_title">Szybki i skuteczny</h3>
+	<p class="feature_description">Program wykrywa plagiat z najwyższą skutecznością spośród dostępnych rozwiązań a przy tym działa niesamowicie szybko, deklasując tym samym konkurencyjne oprogramowanie.</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\success.png"></img>
+	<h3 class="feature_title">Niezawodny</h3>
+	<p class="feature_description">Program doskonale sobie radzi zarówno z bardzo obszernymi pracami dyplomowymi jak i niewielkimi tekstami typu artykuł czy wypracowanie</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\like.png"></img>
+	<h3 class="feature_title">Prostota i wygoda</h3>
+	<p class="feature_description">Program jest bardzo prosty i wygodny w obsłudze. Wystarczy wybrać pracę do sprawdzenia i kliknąć START - to wszystko co musisz zrobić, resztę automatycznie wykona za Ciebie Antyplagiat ! Proste, prawda ?</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\pdf.png"></img>
+	<h3 class="feature_title">Obsługa formatu PDF</h3>
+	<p class="feature_description">Nasz program jako jeden z nielicznych obsługuje format PDF, dzięki czemu nie będziesz zmuszony konwertować swojej pracy do innego formatu. Bez wątpienia obsługa formatu PDF jest tym co Nas wyróżnia na tle konkurencji ! Nie trać czasu i nerwów na programy, które radzą sobie tylko ze zwykłymi plikami tekstowymi.</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\search-1.png"></img>
+	<h3 class="feature_title">Zaawansowane przeszukiwanie</h3>
+	<p class="feature_description">Fragmenty Twojej pracy zostaną porównane z wynikami wyszukiwarki Google. Antyplagiat przeszuka serwisy ze ściągami, wypracowaniami oraz pracami dyplomowymi.</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\download-png-1024px-1024.png"></img>
+	<h3 class="feature_title">Bezpieczeństwo</h3>
+	<p class="feature_description">Korzystając z Naszego oprogramowania masz zapewnione 100% bezpieczeństwa - Twoje teksty nigdy nie wyciekną do internetu. Żadna osoba trzecia nie ma do nich dostępu gdyż program, w odróżnieniu od aplikacji online, nie przesyła plików na żadne serwery, wszystko odbywa się na Twoim komputerze. Pamiętaj, kupując podróbki lub przestarzałe programy narażasz się na wyciek Twojej pracy do internetu !</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\diploma.png"></img>
+	<h3 class="feature_title">Certyfikat</h3>
+	<p class="feature_description">Program po sprawdzeniu Twojej pracy wygeneruje certyfikat jakości, który jednoznacznie informuje o całkowitym poziomie plagiatu w tekście. Wystawiony certyfikat możesz wydrukować lub zapisać i przesłać swojemu promotorowi.</p>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\poland-151461_640.png"></img>
+	<h3 class="feature_title">Polska wersja językowa</h3>
+	<p class="feature_description">Antyplagiat jest w całości po polsku ! </p>
+	<br>
+	</div>
+	<div class="feature_container">
+	<img class="feature_img" src="images\support.png"></img>
+	<h3 class="feature_title">Wsparcie techniczne</h3>
+	<p class="feature_description">Oferujemy pełne wsparcie techniczne, jesteśmy do Państwa dyspozycji - zapraszamy do kontaktu telefonicznego oraz mailowego.</p>
+	</div>
+	
+	<h2 style="text-align: center;">Masz jeszcze wątpliwości ?</h2>
+	<p style="text-align: left; font-size:18px">Zachęcamy do wypróbowania <span class="text_green_medium">darmowej</span> wersji aplikacji. Wersja demonstracyjna ma jednak pewne ograniczenia - można sprawdzić tylko krótki tekst, zawierający maksymalnie 100 zdań. <br><br>Pełna wersja nie ma <span class="text_green_medium">żadnych limitów ani ograniczeń</span> - otrzymujesz dożywotnią licencję, darmowe aktualizacje oraz pełne wsparcie techniczne. Zachęcamy również do obejrzenia krótkiego filmiku instruktażowego oraz do pobrania instrukcji obsługi programu. </p>
+	<div align="center" style="width: 100%">
+	<a href="downloads/Antyplagiat_Demo.msi" class="button button_start button_small">POBIERZ WERSJE DEMO</a>
+	<a target="_blank" href="https://www.youtube.com/watch?v=J-ilnQ-CAwc" class="button button_small">ZOBACZ FILMIK INSTRUKTAŻOWY</a>
+	<a target="_blank" href="downloads\Antyplagiat - Instrukcja obsługi.pdf" class="button button_end button_small">INSTRUKCJA OBSŁUGI</a>
+	<br><br><br>
+	
+	<h2 style="text-align: center;">Kup Antyplagiat i <span class="text_green_large">obroń pracę</span> na 5-tkę !</h2>
+	<img style="width: 20%;" src="images\good-student-teacher-convocation-007-512.png">
+	<br><br>
+	<div align="center" style="width: 100%">
+	<a href="buy_now.html" class="button button_start button_end button_small buy_now_button">KUP TERAZ</a>
+	</div>
+	<br><br><br>
+	<p style="text-align: left; font-size : 18px;">Otrzymujsz najnowszą wersję aktualną na rok 2018, która jest <span class="text_green_medium">znacznie lepsza</span> niż konkurencyjne programy ! Program kupujesz u prawdziwej firmy, która ciągle rozwija produkt, dba o bezpieczeństwo i jakość Twoich prac. <span class="text_green_medium">Nam po prostu zależy !</span></p>
+	<p style="text-align: left; font-size : 18px; margin-bottom:0px;">Życzymy miłego użytkowania i jak najmniejszej liczby plagiatów.</p>
+	<p style="text-align: left; font-size : 18px; margin-top: 2px;">Zespół Anty-Plagiat.pl</p>
+</div>
+
+</div>
+
+<div id="clearer"></div>
+<div id="stopka">
+<p align="center">Wszelkie prawa zastrzeżone przez <span style="color: #63b11d;"> <b>Anty-Plagiat.pl </b></span> © 2018</p>
+</div>
+
+
+<div id="clearer"></div>
+</div>
+
+</div>
+
+</head>
+</html>

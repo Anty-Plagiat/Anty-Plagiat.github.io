@@ -1,0 +1,284 @@
+<html lang="pl">
+<head>
+<title>Anty-Plagiat.pl - Oprogramowanie antyplagiatowe wykrywające plagiat w pracach dyplomowych 2018</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Wyeliminuj plagiat ze swojej pracy dyplomowej ! Oprogramowanie Antyplagiat wykrywa możliwość popełnienia plagiatu z najwyższą skutecznością spośród dostępnych na rynku rozwiązań.">
+<meta name="keywords" content="plagiat,antyplagiat,anty-plagiat,program antyplagiatowy,sprawdź plagiat,wykryj plagiat,praca dyplomowa,zweryfikuj pracę,program do sprawdzania prac dyplomowych">
+<link rel="icon" href="images/favicon.ico">
+
+<style>
+    
+#site {
+    width: 1150px;
+}
+
+#site_gradient {
+    min-width: 1240px;
+    background: rgba(65,177,225,1);
+    background: -moz-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(65,177,225,1)), color-stop(49%, rgba(65,177,225,1)), color-stop(51%, rgba(65,177,225,1)), color-stop(100%, rgba(65,222,225,1)));
+    background: -webkit-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(65,177,225,1) 0%, rgba(65,177,225,1) 49%, rgba(65,177,225,1) 51%, rgba(65,222,225,1) 100%);
+}
+
+#logo {
+    height: 250px;
+    background-image:url(images/logo.png);
+    position: relative;
+    z-index: 2;
+}
+
+#info {
+    float: left;
+    width: 23%;
+}
+
+#opis {
+    float: left;
+    margin: 10px 0px 0px 10px;
+    width: 72%;
+    min-height: 600px;
+    padding: 10px;
+    border-radius: 12px;
+    background: white; 
+    position: relative;
+}
+
+#stopka{
+    clear: both;
+    position: relative;
+    width: 80%;
+    min-height: 45px;
+    color: white;
+    font-size: 12px;
+    background-image:-moz-linear-gradient(180deg,#102134,#172c44,#102134);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    line-height: 45px;
+}
+
+#clearer{
+    clear: both;
+    min-height: 5px;
+    width: 90%;
+    position:relative;
+}
+
+
+.linia {
+    border-bottom:dashed; 
+    border-bottom-width: 1px;
+    color: #626265;
+    margin: -11px 0px 0px 0px;
+}
+
+.komorka {
+    width: 90%;
+    min-height: 100px;
+    display: block;
+    font-size: 12px; 
+    color: black;
+    border-radius: 12px;
+    background-image:-moz-linear-gradient(180deg,#102134,#172c44,#102134);
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+
+.button {
+    float: left;
+    display: block;
+    width: 24.8%;
+    height: 60px;
+    color: white;
+    background-color: #102134;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact;
+    font-size: 17px;
+    font-weight: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #41b1e1;
+}
+
+.button_start{
+    border-top-left-radius: 90px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 90px;
+}
+
+.button_end{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 0px;
+}
+
+.button:hover{
+   background-color: #63b11d;
+   font-size: 20px;
+}
+
+.text_green_large {
+	color: #63b11d;
+	font-size:27px;
+}
+
+.text_green_medium {
+	color: #63b11d;
+	font-size:20px;
+	font-weight:bold;>
+}
+
+.feature_container{
+	margin-bottom: 25px;
+}
+
+.feature_img{
+	width: 80px;
+	float:left;
+	margin-left:10px;
+}
+
+.feature_title{
+	text-align: left;
+	margin-left:110px; 
+	margin-bottom:0px;
+}
+
+.feature_description{
+	text-align: left;
+	margin-left:110px;
+	margin-top:3px;
+	font-size:18px
+}
+
+.button_small {
+    width: 33%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    border-color: #ffffff;
+}
+
+</style>
+
+<div align="center" id="site_gradient">
+<div id="site">
+<div id="logo"></div>
+
+<div align="center" style="width: 100%">
+<a href="index.html" class="button button_start">START</a>
+<a href="mailto:biuro.antyplagiat@gmail.com" class="button">NAPISZ DO NAS</a>
+<a href="downloads/Antyplagiat_Demo.msi" class="button">POBIERZ DEMO</a>
+<a href="http://allegro.pl/show_user.php?uid=48472148" class="button button_end">KOMENTARZE</a>
+</div>
+
+
+<div id="info">
+
+<div class="komorka">
+<p style="color: #63b11d; text-align: left; font-family: Impact; font-size: 18px; text-weight: bold; margin-left: 20px;"><span style="color: white; font-size:22px;">K</span>ONTAKT</p>
+<p class="linia"></p>
+
+<div>
+<img style="float: left; margin-left: 10px; margin-top: -5px; width: 32px; height: 27px;" src="images\telefon.png"></img>
+<h3 style="text-align: center; color:white;">+48 534-194-480</h3>
+ </div>
+ <div>
+<img style="float: left; margin-left: 10px; margin-top: -5px; width: 32px; height: 27px;" src="images\telefon.png"></img>
+<h3 style="text-align: center; color:white;">+48 501-340-973</h3>
+ </div>
+<div>
+<img style="float: left; margin-left: 13px; width: 30px; height: 20px;" src="images/mail.png"></img>
+<h3 align="center" style="color: white;">biuro.antyplagiat@gmail.com</h3>
+</div>
+<div>
+ <img src="http://status.gadu-gadu.pl/users/status.asp?id=5737182&amp;styl=1" style="float: left; margin-left: 20px; width: 18px; height: 18px;" alt="Gadu-Gadu" />
+ <a href="gg:5737182" style="color: white; "><h3>GG: 5737182</h3></a>   </div>
+</div>
+
+<div class="komorka">
+<p style="color: #63b11d; text-align: left; font-family: Impact; font-size: 18px; text-weight: bold; margin-left: 20px;"><span style="color: white; font-size:22px;">P</span>ŁATNOŚCI</p>
+<p class="linia"></p>
+<br>
+<img style="height: 60px;" src="images\pkobp.png"></img>
+<h3 style="text-align: center; color: yellow;">PKO Bank Polski</h3>
+<h3 style = "text-align: center; color: white; margin: -10px 0px 0px 5px">20 1020 1462 0000 7002 0149 3014</h3>
+<br>
+<p class="linia"></p>
+<br>
+<img style="width: 40%; height: 40px;" src="images\payu.png"></img>
+<h3 style="text-align: center; color: yellow;">Obsługujemy PayU</h3>
+<p style="text-align: left; color: white; font-size:15px; margin: -10px 0px 0px 5px;">Przedpłata za pomocą Płacę z Allegro. Bezpieczna, szybka i zautomatyzowana forma płatności. Polecamy!</p>
+<br>
+<p class="linia"></p>
+<br>
+<img style="width: 40%; height: 40px;" src="images\logo_paypal.png"></img>
+<h3 style="text-align: center; color: yellow;">Obsługujemy PayPal</h3>
+<p style="text-align: left; color: white; font-size:15px; margin: -10px 0px 0px 5px;">Istnieje mozliwosc przedpłaty za pomocą PayPal. Szybka, bezpieczna metoda płatności online.</p>
+<br>
+</div>
+
+<div class="komorka">
+<p style="color: #63b11d; text-align: left; font-family: Impact; font-size: 18px; text-weight: bold; margin-left: 20px;"><span style="color: white; font-size:22px;">R</span>EALIZACJA</p>
+<p class="linia"></p>
+<br>
+<img style="width: 85%;" src="images\delivery.png"></img>
+<br><br>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">1. Zamawiasz dowolną ilość licencji na jednej aukcji.</p>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">2. Dokonujesz płatności</p>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">3. W ciągu kilku minut otrzymujesz maila z linkiem do pobrania aplikacji oraz kluczem licencyjnym.</p>
+<br>
+<p style="text-align: left; color: white; font-size:15px; margin: 0px 0px 0px 5px;">Wystarczy, że pobierzesz aplikację, wprowadzisz klucz licencyjny i już możesz sprawdzać swoje prace.</p>
+<br>
+<p style="text-align: left; color: yellow; font-weight: bold; margin: 0px 0px 0px 5px;">UWAGA: Przy wpłacie przez Przelew24 automatycznie otrzymasz maila z dalszymi instrukcjami. Płacąc standardowym przelewem czas oczekiwania wynosi od kilku minut do paru godzin.</p>
+<br>
+</div>
+
+</div>
+
+<div id="opis">
+	<h2 style="text-align: center;">Kup Antyplagiat i <span class="text_green_large">obroń pracę</span> na 5-tkę !</h2>
+	<img style="width: 11%; float:left" src="images\good-student-teacher-convocation-007-512.png">
+	<p style="text-align: left; margin-left: 120px; font-size : 18px;">Otrzymujsz najnowszą wersję aktualną na rok 2018, która jest <span class="text_green_medium">znacznie lepsza</span> niż konkurencyjne programy ! Program kupujesz u prawdziwej firmy, która ciągle rozwija produkt, dba o bezpieczeństwo i jakość Twoich prac. Program możesz nabyć poprzez serwis Allegro, płacąc przez PayPal lub dokonując tradycyjnego przelewu bankowego.</p>
+<br>
+<a href="https://allegro.pl/uzytkownik/Anty-Plagiat_pl?order=m">
+<h2 style="text-align: center;">Kliknij aby zamówić program przez Allegro</h2>
+<img style="width: 30%; float: center;" src="images/logo_allegro.jpg">
+</a>
+<a href="https://www.paypal.me/Antyplagiat/50">
+<h2 style="text-align: center;">Kliknij aby zamówić program przez PayPal</h2>
+<img style="width: 26%; float: center;" src="images/logo_paypal.png">
+</a>
+<h2 style="text-align: center;">Dane do tradycyjnego przelewu</h2>
+<img style="width: 12%; float: center;" src="images/pkobp.png">
+<p style="text-align: left; font-size : 18px;">Imię i nazwisko: <span style="font-weight: bold">Dominik Mikuła</span></p>
+<p style="text-align: left; font-size : 18px; margin-top: -15px;">Numer konta PKO Bank Polski: <span style="font-weight: bold">20 1020 1462 0000 7002 0149 3014</span></p>
+<p style="text-align: left; font-size : 18px; margin-top: -15px;">Cena: <span style="font-weight: bold">50 zł</span></p>
+<p style="text-align: left; font-size : 18px; margin-top: -15px;">W tytule przelewu proszę wpisać swój adres e-mail wraz z dopiskiem Antyplagiat ! Przykładowo: jan.kowalski@gmail.com - Antyplagiat</p>
+<br>
+<p style="text-align: left; font-size: 18px;">Po dokonaniu płatności, w ciągu kilku minut otrzymujesz maila z linkiem do pobrania aplikacji oraz kluczem licencyjnym. Program polecamy zamawiać przez Allegro, ponieważ po dokonaniu płatności automatycznie zostaniesz przekierowany do strony z pełną wersją aplikacji. Płacąc standardowym przelewem czas oczekiwania wynosi od kilku minut do paru godzin. W przypadku tradycyjnego przelewu prosimy o potwierdzenie dokonania płatności drogą mailową, znacząco przyspieszy to cały proces.</p>
+</div>
+
+</div>
+
+<div id="clearer"></div>
+<div id="stopka">
+<p align="center">Wszelkie prawa zastrzeżone przez <span style="color: #63b11d;"> <b>Anty-Plagiat.pl </b></span> © 2018</p>
+</div>
+
+
+<div id="clearer"></div>
+</div>
+
+</div>
+
+</head>
+</html>
