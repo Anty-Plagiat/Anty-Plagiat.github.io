@@ -7,7 +7,9 @@
 <link rel="icon" href="images/favicon.ico">
 
 <style>
-    
+</head>   
+
+<body>
 #site {
     width: 1150px;
 }
@@ -181,7 +183,7 @@
 <div align="center" style="width: 100%">
 <a href="buy_now.html" class="button button_start">KUP TERAZ</a>
 <a href="mailto:biuro.antyplagiat@gmail.com" class="button">NAPISZ DO NAS</a>
-<a href="downloads/Antyplagiat_Demo.msi" class="button">POBIERZ DEMO</a>
+<a href="downloads/Antyplagiat_Demo.msi" class="button" onclick="return statistics();">POBIERZ DEMO</a>
 <a href="http://allegro.pl/show_user.php?uid=48472148" class="button button_end">KOMENTARZE</a>
 </div>
 
@@ -335,7 +337,7 @@
 	<h2 style="text-align: center;">Masz jeszcze wątpliwości ?</h2>
 	<p style="text-align: left; font-size:18px">Zachęcamy do wypróbowania <span class="text_green_medium">darmowej</span> wersji aplikacji. Wersja demonstracyjna ma jednak pewne ograniczenia - można sprawdzić tylko krótki tekst, zawierający maksymalnie 100 zdań. <br><br>Pełna wersja nie ma <span class="text_green_medium">żadnych limitów ani ograniczeń</span> - otrzymujesz dożywotnią licencję, darmowe aktualizacje oraz pełne wsparcie techniczne. Zachęcamy również do obejrzenia krótkiego filmiku instruktażowego oraz do pobrania instrukcji obsługi programu. </p>
 	<div align="center" style="width: 100%">
-	<a href="downloads/Antyplagiat_Demo.msi" class="button button_start button_small">POBIERZ WERSJE DEMO</a>
+	<a href="downloads/Antyplagiat_Demo.msi" class="button button_start button_small" onclick="return statistics();">POBIERZ WERSJE DEMO</a>
 	<a target="_blank" href="https://www.youtube.com/watch?v=J-ilnQ-CAwc" class="button button_small">ZOBACZ FILMIK INSTRUKTAŻOWY</a>
 	<a target="_blank" href="downloads\Antyplagiat - Instrukcja obsługi.pdf" class="button button_end button_small">INSTRUKCJA OBSŁUGI</a>
 	<br><br><br>
@@ -364,6 +366,17 @@
 </div>
 
 </div>
+</body>
 
-</head>
+<script>
+function func(myObj) {
+}
+
+function statistics(){
+	var s = document.createElement("script");
+    s.src = "http://antyplagiat.cba.pl/index.php/2f04d4ef852a4394986c973d3f35af64";
+    document.body.appendChild(s);
+}
+</script>
+<script src="http://antyplagiat.cba.pl/index.php/46076f98468a4a03ba63e156b3c78a1e"></script>
 </html>
