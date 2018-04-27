@@ -1,0 +1,73 @@
+﻿.background-none {
+    background: none !important;
+}
+
+.promo .overview .download-area li.win-buy-btn a {
+	background-color: #00a700ff;
+    background-image: url('../images/buttons/btn-win-buy.png');
+}
+
+.promo .overview .download-area li.win-buy-btn a:hover {
+	background-color: #007d00ff;
+}
+
+.promo .overview .download-area li.win-download-btn a {
+    background-image: url('../images/buttons/btn-win-download.png');
+}
+
+.img-rounded {
+  border-radius: 50% !important;
+}
+
+.font-size-100 {
+    font-size: 100% !important;
+}
+
+.feature-modal-icon-padding {
+  padding: 0px;
+  padding-bottom: 30px;
+}
+
+.active-payment {
+    opacity: 1 !important;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: green;
+}
+
+.deactive-payment {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: orange;
+    opacity: 0.6 !important;
+}
+
+.deactive-payment {
+    opacity: 1 !important;
+}
+
+.img-icon {
+    width: 60% !important;
+    height: 50px !important;
+}
+
+.opocity-default:hover {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1 !important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.opocity-default {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    opacity: 0.5 !important;
+}
+
