@@ -767,7 +767,7 @@
             if (sendEmailForm.checkValidity() === false) {
                 return;
             }
-            $.post("http://antyplagiat.cba.pl/rest/email",
+            $.post("https://antyplagiat.cba.pl/rest/email",
                 {
                     email: $("#email").val(),
                     subject: "Wiadomość od klienta:" + $("#name").val(),
