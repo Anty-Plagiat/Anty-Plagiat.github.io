@@ -15,7 +15,7 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/plugins/font-our/styles.css">
@@ -70,7 +70,7 @@
                     </ul>
                     <div class="download-area">
                         <ul class="list-inline">
-                            <li class="win-download-btn list-inline-item"><a href="downloads/Antyplagiat_Demo.msi">Pobierz demo</a></li>
+                            <li class="win-download-btn list-inline-item"><a href="downloads/Antyplagiat_Demo.msi" id="downloadDemo">Pobierz demo</a></li>
                             <li class="win-buy-btn list-inline-item"><a class="scrollto" href="#pricing">Kup teraz</a></li>
                         </ul>
                         <div class="note text-center">
@@ -122,7 +122,10 @@
                     </div><!--//icon-->
                     <div class="content">
                         <h3 class="title">Szybki i skuteczny</h3>
-                        <p>Program wykrywa plagiat z najwyższą skutecznością spośród dostępnych rozwiązań a przy tym działa niesamowicie szybko.</p><br>
+                        <p>Program wykrywa plagiat z najwyższą skutecznością spośród dostępnych rozwiązań a przy tym działa niesamowicie szybko.</p>
+                        <div class="d-none d-md-block">
+                            <br>
+                        </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-2">Dowiedz się więcej</button>
                     </div><!--//content-->
                 </div><!--//item-->
@@ -142,14 +145,18 @@
                     </div><!--//icon-->
                     <div class="content">
                         <h3 class="title">Prostota i wygoda</h3>
-                        <p>Program jest bardzo prosty i wygodny w obsłudze. Wystarczy wybrać pracę do sprawdzenia i kliknąć START.</p><br><br>
+                        <p>Program jest bardzo prosty i wygodny w obsłudze. Wystarczy wybrać pracę do sprawdzenia i kliknąć START.</p>
+                        <div class="d-none d-md-block">
+                            <br><br>
+                        </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-4">Dowiedz się więcej</button>
                     </div><!--//content-->
                 </div><!--//item-->
             </div><!--//row-->
 
-            <div class="row feature-row-last">
-                <div class="item col-lg-4 col-md-6 col-12 text-center">
+
+            <div class="row feature-row-last remove-row-md-down">
+                <div class="item col-lg-4 col-md-6 col-12 text-center ">
                     <div class="icon">
                         <i class="fa fa-file-pdf"></i>
                     </div><!--//icon-->
@@ -180,7 +187,7 @@
                     </div><!--//content-->
                 </div><!--//item-->
             </div><!--//row-->
-            <div class="row feature-row-last">
+            <div class="row feature-row-last remove-row-md-down">
                 <div class="item col-lg-4 col-md-6 col-12 text-center">
                     <div class="icon">
                         <i class="fa icon-certificate"></i>
@@ -197,7 +204,10 @@
                     </div><!--//icon-->
                     <div class="content">
                         <h3 class="title">Polska wersja językowa</h3>
-                        <p>Antyplagiat jest w całości po polsku ! </p><br><br><br>
+                        <p>Antyplagiat jest w całości po polsku ! </p>
+                        <div class="d-none d-md-block">
+                            <br><br><br>
+                        </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-9">Dowiedz się więcej</button>
                     </div><!--//content-->
                 </div><!--//item-->
@@ -221,7 +231,7 @@
                 <div class="content col-md-6 col-12 order-md-12 text-center">
                     <h2 class="title">Jak to działa ?</h2>
                     <p class="intro">Profesjonalny system analizuje tekst pod kątem wystąpienia plagiatu. Wyrafinowany algorytm automatycznie porównuje fragmenty pracy z wynikami wyszukiwarki Google. Po zakończeniu procesu analizy program wskazuje miejsca w tekście, które mogą być potraktowane jako plagiat utworu. Każdy taki fragment tekstu jest podkreślony kolorem czerwonym a użytkownik ma możliwość wyświetlenia stron internetowych na których opublikowano analizowany fragment.</p>
-                    <div class="qr-codes d-none d-lg-block">
+                    <div class="qr-codes">
                         <div class="note">
                             <p>Pobierz instrukcję obsługi</p>
                             <span class="left-arrow"></span>
@@ -379,7 +389,7 @@
                     <div class="quote-box">
                         <i class="fa fa-quote-left"></i>
                         <blockquote class="quote">
-                            Studiuję kierunek techniczny. Podczas pisania pracy inżynierskiej wspomagałem się materiałami z internetu. Po zakończeniu pisania nie byłem pewien czy nie skopiowałem niektórych fragmentów od innych autorów. Ten genialny program uratował mi skórę i zaoszczędził mnóstwo czasu !<br/> Program sprawdzony i w 100% godny polecenia.
+                            Studiuję kierunek techniczny. Podczas pisania pracy inżynierskiej wspomagałem się materiałami z internetu. Po zakończeniu pisania nie byłem pewien czy nie skopiowałem niektórych fragmentów od innych autorów. Ten genialny program uratował mi skórę i zaoszczędził mnóstwo czasu !<br /> Program sprawdzony i w 100% godny polecenia.
                         </blockquote><!--//quote-->
                     </div><!--//quote-box-->
                     <div class="people row">
@@ -391,7 +401,7 @@
                     </div><!--//people-->
                 </div><!--//item-->
             </div>
-        <br /><br />
+            <br /><br />
             <div class="press text-center">
                 <h3 class="note">Z oprogramowania skorzystali studenci m.in. z poniższych uczelni...</h3>
                 <ul class="list-inline">
@@ -758,7 +768,31 @@
     <script type="text/javascript" src="assets/js/animations.js"></script>
 
     <script>
+        var mdWidth = 768
         var sendEmailForm = document.getElementById('sendEmailForm');
+
+        var initForSd= function () {
+            $(".remove-row-md-down").each(function () {
+                $(this).removeClass("row").removeClass("feature-row-last");
+            });
+        };
+
+        $(document).ready(function () {
+
+            $.post("https://antyplagiat.cba.pl/rest/incrementEntries",
+                function (data, status) {
+                })
+
+            if ($(window).width() < mdWidth) {
+                initForSd();
+            } 
+        });
+
+        $("#downloadDemo").click(function () {
+            $.post("https://antyplagiat.cba.pl/rest/incrementDownloads",
+                function (data, status) {
+                })
+        });
 
         $("#sendEmail").click(function () {
 
