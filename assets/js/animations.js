@@ -23,9 +23,20 @@ jQuery(document).ready(function($) {
         $('.promo-landscape .phone-holder').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp4');}
         });
+		
+		/* Animate elements in #Introduction */
+        $('#introduction .title').css('opacity', 0).one('inview', function(event, isInView) {
+            if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
+        });
+		$('#introduction .intro').css('opacity', 0).one('inview', function(event, isInView) {
+            if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
+        });
     
         /* Animate elements in #Features */
         $('#features .icon').css('opacity', 0).one('inview', function(event, isInView) {
+            if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
+        });
+		$('#features .title').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
         });
         

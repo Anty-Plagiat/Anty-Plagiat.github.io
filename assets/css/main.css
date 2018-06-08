@@ -40,7 +40,7 @@
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    border-color: orange;
+    border-color: #777777;
     opacity: 0.6 !important;
 }
 
@@ -71,3 +71,60 @@
     opacity: 0.5 !important;
 }
 
+/* ======= Introduction Section ======= */
+.introduction {
+  padding: 80px 0;
+  padding-bottom: 20px;
+}
+.introduction .content {
+  padding: 0 30px;
+}
+.introduction .content .title {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.introduction .content .intro {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #777777;
+}
+
+.features .container .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.img-scale{
+    width: 80%;
+    height: 80%;
+}
+
+.ekko-lightbox-nav-overlay a {
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .5s;
+    color: black;
+    font-size: 30px;
+    z-index: 1
+}
+
+.payments-title {
+    font-family: 'Lato', arial, sans-serif;
+    color: #444;
+}
+
+.payments-info {
+  font-size: 16px;
+  font-weight: 300;
+  color: #777777;
+}
+
+.font-size-60{
+    font-size: 60% !important;
+}
