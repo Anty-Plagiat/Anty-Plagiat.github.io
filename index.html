@@ -27,138 +27,6 @@
 
     <link id="theme-style" rel="stylesheet" href="assets/css/main.css">
 
-    <style>
-        .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-009-spin {
-            from {
-                transform: rotate(0deg);
-            }
-
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-
-        .jssora106 {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-        }
-
-            .jssora106 .c {
-                fill: #fff;
-                opacity: .3;
-            }
-
-            .jssora106 .a {
-                fill: none;
-                stroke: #000;
-                stroke-width: 350;
-                stroke-miterlimit: 10;
-            }
-
-            .jssora106:hover .c {
-                opacity: .5;
-            }
-
-            .jssora106:hover .a {
-                opacity: .8;
-            }
-
-            .jssora106.jssora106dn .c {
-                opacity: .2;
-            }
-
-            .jssora106.jssora106dn .a {
-                opacity: 1;
-            }
-
-            .jssora106.jssora106ds {
-                opacity: .3;
-                pointer-events: none;
-            }
-
-        .jssort101 .p {
-            position: absolute;
-            top: 0;
-            left: 0;
-            box-sizing: border-box;
-            background: #000;
-        }
-
-            .jssort101 .p .cv {
-                position: relative;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                border: 2px solid #000;
-                box-sizing: border-box;
-                z-index: 1;
-            }
-
-        .jssort101 .a {
-            fill: none;
-            stroke: #fff;
-            stroke-width: 400;
-            stroke-miterlimit: 10;
-            visibility: hidden;
-        }
-
-        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {
-            border: none;
-            border-color: transparent;
-        }
-
-        .jssort101 .p:hover {
-            padding: 2px;
-        }
-
-            .jssort101 .p:hover .cv {
-                background-color: rgba(0,0,0,6);
-                opacity: .35;
-            }
-
-            .jssort101 .p:hover.pdn {
-                padding: 0;
-            }
-
-                .jssort101 .p:hover.pdn .cv {
-                    border: 2px solid #fff;
-                    background: none;
-                    opacity: .35;
-                }
-
-        .jssort101 .pav .cv {
-            border-color: #fff;
-            opacity: .35;
-        }
-
-        .jssort101 .pav .a, .jssort101 .p:hover .a {
-            visibility: visible;
-        }
-
-        .jssort101 .t {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-            opacity: .6;
-        }
-
-        .jssort101 .pav .t, .jssort101 .p:hover .t {
-            opacity: 1;
-        }
-    </style>
 </head>
 
 <body>
@@ -253,6 +121,8 @@
     <section id="features" class="features section">
         <div class="container">
             <h2 class="title text-center">Dlaczego nasz program jest najlepszy ?</h2>
+            <br />
+            <br />
             <div class="row">
                 <div class="item col-lg-3 col-md-6 col-12 text-center">
                     <div class="icon">
@@ -303,18 +173,37 @@
             </div><!--//row-->
 
 
-            <div class="row feature-row-last remove-row-md-down">
-                <div class="item col-lg-4 col-md-6 col-12 text-center ">
+            <div class="row">
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
                     <div class="icon">
                         <i class="fa fa-file-pdf"></i>
                     </div><!--//icon-->
                     <div class="content">
-                        <h3 class="title">Obsługa formatu PDF</h3>
+                        <h3 class="title">
+                            Obsługa formatu PDF
+                            <div class="d-none d-md-block">
+                                <br>
+                            </div>
+                        </h3>
+
                         <p>Nasz program jako jeden z nielicznych obsługuje format PDF, dzięki czemu nie będziesz zmuszony konwertować swojej pracy do innego formatu.</p>
+                        <div class="d-none d-md-block">
+                            <br>
+                        </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-5">Dowiedz się więcej</button>
                     </div><!--//content-->
                 </div><!--//item-->
-                <div class="item col-lg-4 col-md-6 col-12 text-center">
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-file-word"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Obsługa formatu programu Word</h3>
+                        <p>Antyplagiat obsługuje pliki o rozszerzeniu DOCX, który jest formatem stosowanym w programie Microsoft Word, wchodzącego w skład pakietu biurowego Microsoft Office.</p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-11">Dowiedz się więcej</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
                     <div class="icon">
                         <i class="fa fa-search"></i>
                     </div><!--//icon-->
@@ -324,13 +213,21 @@
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-6">Dowiedz się więcej</button>
                     </div><!--//content-->
                 </div><!--//item-->
-                <div class="item col-lg-4 col-md-6 col-12 text-center">
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
                     <div class="icon">
                         <i class="fa fa-lock"></i>
                     </div><!--//icon-->
                     <div class="content">
-                        <h3 class="title">Bezpieczeństwo</h3>
+                        <h3 class="title">
+                            Bezpieczeństwo
+                            <div class="d-none d-md-block">
+                                <br>
+                            </div>
+                        </h3>
                         <p>Korzystając z Naszego oprogramowania masz zapewnione 100% bezpieczeństwa - Twoje teksty nigdy nie wyciekną do internetu.</p>
+                        <div class="d-none d-md-block">
+                            <br>
+                        </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-7">Dowiedz się więcej</button>
                     </div><!--//content-->
                 </div><!--//item-->
@@ -501,7 +398,7 @@
                     </div><!--//item-->
                     <div class="item">
                         <h3 class="question"><i class="fa fa-question-circle"></i>Jakie formaty plików obsługuje program ?</h3>
-                        <p class="answer">Nasz program obsługuje pliki tekstowe oraz jako jeden z nielicznych na rynku wspiera format PDF. Bez wątpienia obsługa formatu PDF jest tym co Nas wyróżnia na tle konkurencji !</p>
+                        <p class="answer">Nasz program obsługuje pliki tekstowe oraz jako jeden z nielicznych na rynku wspiera format PDF i stosowany w programie Microsoft Word - DOCX. Bez wątpienia obsługa formatów PDF i DOCX jest tym co Nas wyróżnia na tle konkurencji !</p>
                     </div><!--//item-->
                     <div class="item">
                         <h3 class="question"><i class="fa fa-question-circle"></i>Czy aby korzystać z programu potrzebuję połączenia internetowego ?</h3>
@@ -646,7 +543,7 @@
                             <div class="item-inner">
                                 <div class="heading">
                                     <h3 class="title">Licencja osobista</h3>
-                                    <p class="price-figure"><span class="price-figure-inner"><span class="number">49.90 </span><span class="currency">ZŁ</span><br /><span class="unit">na zawsze</span></span></p>
+                                    <p class="price-figure"><span class="price-figure-inner"><span class="number">59.90 </span><span class="currency">ZŁ</span><br /><span class="unit">na zawsze</span></span></p>
                                 </div>
                                 <div class="content">
                                     <ul class="list-unstyled feature-list">
@@ -940,6 +837,28 @@
                         </div><!--//item-->
                         <div class="content col-lg-9 col-12">
                             <p>Oferujemy pełne wsparcie techniczne, jesteśmy do Państwa dyspozycji - zapraszamy do kontaktu telefonicznego oraz mailowego.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+    <div class="modal modal-feature" id="feature-modal-11" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-11" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-11" class="modal-title text-center">Obsługa formatu programu Word</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="features item col-lg-3 col-md-6 col-12 text-center feature-modal-icon-padding">
+                            <div class="icon">
+                                <i class="fa fa-file-word"></i>
+                            </div><!--//icon-->
+                        </div><!--//item-->
+                        <div class="content col-lg-9 col-12">
+                            <p>Antyplagiat obsługuje pliki o rozszerzeniu DOCX, który jest formatem stosowanym w programie Microsoft Word, wchodzącego w skład pakietu biurowego Microsoft Office.</p>
                         </div><!--//content-->
                     </div><!--//row-->
                 </div><!--//modal-body-->
