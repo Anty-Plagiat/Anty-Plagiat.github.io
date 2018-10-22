@@ -11,8 +11,21 @@
 	background-color: #007d00ff;
 }
 
+.promo .overview .download-area li.win-buy-btn-en a {
+	background-color: #00a700ff;
+    background-image: url('../images/buttons/btn-win-buy-eng.png');
+}
+
+.promo .overview .download-area li.win-buy-btn-en a:hover {
+	background-color: #007d00ff;
+}
+
 .promo .overview .download-area li.win-download-btn a {
     background-image: url('../images/buttons/btn-win-download.png');
+}
+
+.promo .overview .download-area li.win-download-btn-en a {
+    background-image: url('../images/buttons/btn-win-download-eng.png');
 }
 
 .img-rounded {
@@ -49,7 +62,7 @@
 }
 
 .img-icon {
-    width: 60% !important;
+    width: 80% !important;
     height: 50px !important;
 }
 
@@ -258,4 +271,8 @@
 
 .jssort101 .pav .t, .jssort101 .p:hover .t {
     opacity: 1;
+}
+
+.dropdown-toggle-styled {
+     background-color: #f5f5f5; 
 }
