@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
     <title>Anty-Plagiat.pl - Oprogramowanie antyplagiatowe wykrywające plagiat w pracach dyplomowych</title>
@@ -154,12 +154,12 @@
                         <h3 class="title">
                             Legalna licencja
                             <div class="d-none d-md-block">
-                                
+
                             </div>
                         </h3>
                         <p>Otrzymujesz dożywotnią licencję bez żadnych limitów. Realizacja w 5 minut - od razu po zakupie otrzymasz link do pobrania aplikacji oraz klucz licencyjny.</p>
                         <div class="d-none d-md-block">
-                            
+
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -172,12 +172,12 @@
                         <h3 class="title">
                             Szybki i skuteczny
                             <div class="d-none d-md-block">
-                                
+
                             </div>
                         </h3>
                         <p>Program wykrywa plagiat z najwyższą skutecznością spośród dostępnych rozwiązań a przy tym działa niesamowicie szybko.</p>
                         <div class="d-none d-md-block">
-                            <br/>
+                            <br />
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-2">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -190,12 +190,12 @@
                         <h3 class="title">
                             Niezawodny
                             <div class="d-none d-md-block">
-                                
+
                             </div>
                         </h3>
                         <p>Program doskonale sobie radzi zarówno z bardzo obszernymi pracami dyplomowymi jak i niewielkimi tekstami typu artykuł czy wypracowanie.</p>
                         <div class="d-none d-md-block">
-                            
+
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-3">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -213,7 +213,7 @@
                         </h3>
                         <p>Program jest bardzo prosty i wygodny w obsłudze. Wystarczy wybrać pracę do sprawdzenia i kliknąć START.</p>
                         <div class="d-none d-md-block">
-                            <br/><br/>
+                            <br /><br />
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-4">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -236,7 +236,7 @@
 
                         <p>Nasz program jako jeden z nielicznych obsługuje format PDF, dzięki czemu nie będziesz zmuszony konwertować swojej pracy do innego formatu.</p>
                         <div class="d-none d-md-block">
-                            <br/>
+                            <br />
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-5">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -249,7 +249,7 @@
                         <h3 class="title">Obsługa formatu programu Word</h3>
                         <p>Antyplagiat obsługuje pliki o rozszerzeniu DOCX, który jest formatem stosowanym w programie Microsoft Word, wchodzącego w skład pakietu biurowego Microsoft Office.</p>
                         <div class="d-none d-md-block">
-                            
+
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-11">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -262,7 +262,7 @@
                         <h3 class="title">
                             Zaawansowane przeszukiwanie
                             <div class="d-none d-md-block">
-                                
+
                             </div>
                         </h3>
                         <p>Fragmenty Twojej pracy zostaną porównane z wynikami wyszukiwarki Google. Antyplagiat przeszuka serwisy ze ściągami, wypracowaniami itd.</p>
@@ -282,7 +282,7 @@
                         </h3>
                         <p>Korzystając z Naszego oprogramowania masz zapewnione 100% bezpieczeństwa - Twoje teksty nigdy nie wyciekną do internetu.</p>
                         <div class="d-none d-md-block">
-                            <br/>
+                            <br />
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-7">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -307,7 +307,7 @@
                         <h3 class="title">Różne wersje językowe</h3>
                         <p>Antyplagiat jest w całości w polskiej oraz angielskiej wersji językowej ! </p>
                         <div class="d-none d-md-block">
-                            <br/><br/>
+                            <br /><br />
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-9">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -320,7 +320,7 @@
                         <h3 class="title">Wsparcie techniczne</h3>
                         <p>Oferujemy pełne wsparcie techniczne, jesteśmy do Państwa dyspozycji - zapraszamy do kontaktu telefonicznego oraz mailowego.</p>
                         <div class="d-none d-md-block">
-                            
+
                         </div>
                         <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-10">Dowiedz się więcej</button>
                     </div><!--//content-->
@@ -1109,7 +1109,7 @@
                 if (px) $(this).addClass("animated").addClass("fadeInRight").addClass("delayp2");
             });
 
-            $.post("https://antyplagiat.cba.pl/rest/incrementEntries",
+            $.post("https://antyplagiat.cba.pl/rest/incrementEntries", { domainName: "anty-plagiat.pl" },
                 function (data, status) {
                 })
 
@@ -1124,7 +1124,7 @@
         });
 
         $("#downloadDemo").click(function () {
-            $.post("https://antyplagiat.cba.pl/rest/incrementDownloads",
+            $.post("https://antyplagiat.cba.pl/rest/incrementDownloads", { domainName: "anty-plagiat.pl" },
                 function (data, status) {
                 })
         });
