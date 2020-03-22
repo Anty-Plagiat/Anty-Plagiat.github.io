@@ -88,7 +88,7 @@
                                 <form novalidate="novalidate" class="needs-validation">
                                     <div class="form-group text-center">
                                         <div class="row">
-                                            <div class="item col-12 col-md-6">
+                                             <div class="item col-12 col-md-6">
                                                 <a href="#" style="width: 80%">
                                                     <img class="active-payment payments img-icon allegro" src="assets/plugins/font-payments/logo_allegro.jpg">
                                                 </a>
@@ -124,7 +124,7 @@
         <div class="container">
             <small class="copyright pull-left">Wszelkie prawa zastrzeżone przez &copy; <a href="https://anty-plagiat.pl" target="_blank">Anty-Plagiat.pl</a></small>
             <ul class="links list-inline">
-                <li class="list-inline-item"></li>
+                <li class="list-inline-item"><a href="regulations.html">Regulamin</a></li>
                 <li class="list-inline-item"></li>
             </ul>
         </div>
@@ -253,8 +253,8 @@
                 else if ($(this).hasClass("paypal")) {
                     whatPayment = "paypal"
                 }
-                else if ($(this).hasClass("dotpay")) {
-                    whatPayment = "dotpay"
+                else if ($(this).hasClass("przelewy24")) {
+                    whatPayment = "przelewy24"
                 }
                 else if ($(this).hasClass("amazon")) {
                     whatPayment = "amazon"
@@ -270,8 +270,8 @@
                 window.open("https://www.ebay.com/itm/382552958859", '_blank');
             } else if (whatPayment == "paypal") {
                 $("#paypalModal").modal('show');
-            } else if (whatPayment == "dotpay") {
-                window.open("https://dotpay.pl", '_blank');
+            } else if (whatPayment == "przelewy24") {
+                window.open("https://przelewy24.pl", '_blank');
             } else if(whatPayment == "amazon") {
                 window.open("https://amazon.com", '_blank');
             }
