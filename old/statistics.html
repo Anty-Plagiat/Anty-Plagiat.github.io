@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Statystyki</title>
+</head>
+
+<body>
+    Liczba wejść: <span id="entriesNumber"></span> <br>
+    Liczba pobrań wersji DEMO: <span id="demoDownloadsNumber"></span>
+
+
+    <script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
+    <script>
+        $.get("https://antyplagiat.cba.pl/rest/statistics?domainName=anty-plagiat.pl",
+            function (data, status) {
+                data = data.replace("ujjhun", "");            
+                data = JSON.parse(data);
+                document.getElementById("entriesNumber").innerHTML = data["ENTRIES_NUMBER"];
+                document.getElementById("demoDownloadsNumber").innerHTML = data["DEMO_DOWNLOADS_NUMBER"];
+            });
+    </script>
+</body>
+</html>
