@@ -1118,6 +1118,20 @@
                 <script type="text/javascript" src="assets/js/animations.js"></script>
                 <script type="text/javascript" src="assets/plugins/jssor/jssor.slider.min.js"></script>
                 <script>
+						function getParameterByName(name, url = window.location.href) {
+					name = name.replace(/[\[\]]/g, '\\$&');
+					var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+						results = regex.exec(url);
+					if (!results) return null;
+					if (!results[2]) return '';
+					return decodeURIComponent(results[2].replace(/\+/g, ' '));
+					}
+
+					var sourceOfVisit = getParameterByName('utm_source');
+					if(!sourceOfVisit){
+						sourceOfVisit = "directly";
+					}
+					
                     function GetUrlVars() {
                         var vars = [], hash;
                         var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -1237,7 +1251,8 @@
                             if (px) $(this).addClass("animated").addClass("fadeInRight").addClass("delayp2");
                         });
 
-                        $.post("https://antyplagiat.cba.pl/rest/incrementEntries",
+                        $.post("https://veaware.com/rest/incrementEntries", {
+            sourceOfVisit: sourceOfVisit, language: 'pl' },
                             function (data, status) {
                             })
 
@@ -1253,7 +1268,7 @@
                     });
 
                     $("#downloadDemo").click(function () {
-                        $.post("https://antyplagiat.cba.pl/rest/incrementDownloads",
+                        $.post("https://veaware.com/rest/incrementDownloads", { sourceOfVisit: sourceOfVisit, language: 'pl' },
                             function (data, status) {
                             })
                     });

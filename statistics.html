@@ -6,19 +6,31 @@
 </head>
 
 <body>
-    Liczba wejść: <span id="entriesNumber"></span> <br>
-    Liczba pobrań wersji DEMO: <span id="demoDownloadsNumber"></span>
+    Liczba wejść PL(bezposrednio): <span id="PL_numberOfEntries"></span> <br>
+    Liczba pobrań wersji DEMO PL(bezposrednio): <span id="PL_numberOfDemoDownloads"></span> <br>
+    Liczba wejść PL(jooble): <span id="PL_J_numberOfEntries"></span> <br>
+    Liczba pobrań wersji DEMO PL(jooble): <span id="PL_J_numberOfDemoDownloads"></span> <br>
+
+    Liczba wejść EN(bezposrednio): <span id="EN_numberOfEntries"></span> <br>
+    Liczba pobrań wersji DEMO EN(bezposrednio): <span id="EN_numberOfDemoDownloads"></span> <br>
+    Liczba wejść EN(jooble): <span id="EN_J_numberOfEntries"></span> <br>
+    Liczba pobrań wersji DEMO EN(jooble): <span id="EN_J_numberOfDemoDownloads"></span> <br>
 
 
     <script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
     <script>
-        $.get("https://antyplagiat.cba.pl/rest/statistics?domainName=anty-plagiat.pl",
+        $.get("https://veaware.com/rest/statistics",
             function (data, status) {
-                data = data.replace("ujjhun", "");            
-                data = JSON.parse(data);
-                document.getElementById("entriesNumber").innerHTML = data["ENTRIES_NUMBER"];
-                document.getElementById("demoDownloadsNumber").innerHTML = data["DEMO_DOWNLOADS_NUMBER"];
-            });
+                console.log(data);
+                document.getElementById("PL_numberOfEntries").innerHTML = data["PL_numberOfEntries"];
+                document.getElementById("PL_numberOfDemoDownloads").innerHTML = data["PL_numberOfDemoDownloads"];
+                document.getElementById("PL_J_numberOfEntries").innerHTML = data["PL_J_numberOfEntries"];
+                document.getElementById("PL_J_numberOfDemoDownloads").innerHTML = data["PL_J_numberOfDemoDownloads"];
+                document.getElementById("EN_numberOfEntries").innerHTML = data["EN_numberOfEntries"];
+                document.getElementById("EN_numberOfDemoDownloads").innerHTML = data["EN_numberOfDemoDownloads"];
+                document.getElementById("EN_J_numberOfEntries").innerHTML = data["EN_J_numberOfEntries"];
+                document.getElementById("EN_J_numberOfDemoDownloads").innerHTML = data["EN_J_numberOfDemoDownloads"];
+            }, "json");
     </script>
 </body>
 </html>
