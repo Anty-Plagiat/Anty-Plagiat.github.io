@@ -3,21 +3,21 @@
 }
 
 .promo .overview .download-area li.win-buy-btn a {
-    background-color: #0b2c2cff;
+    background-color: #00a700ff;
     background-image: url('../images/buttons/btn-win-buy.png');
 }
 
     .promo .overview .download-area li.win-buy-btn a:hover {
-        background-color: #000000ff;
+        background-color: #007d00ff;
     }
 
 .promo .overview .download-area li.win-buy-btn-en a {
-    background-color: #0b2c2cff;
+    background-color: #00a700ff;
     background-image: url('../images/buttons/btn-win-buy-eng.png');
 }
 
     .promo .overview .download-area li.win-buy-btn-en a:hover {
-        background-color: #000000ff;
+        background-color: #007d00ff;
     }
 
 .promo .overview .download-area li.win-download-btn a {
